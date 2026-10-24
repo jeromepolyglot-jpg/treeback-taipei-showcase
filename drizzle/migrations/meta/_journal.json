@@ -1,0 +1,69 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1792774998795,
+      "tag": "0000_oasis_player_progress",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1792815286826,
+      "tag": "0001_create_tree_reports",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1792815613084,
+      "tag": "0002_create_tree_subscriptions_alerts",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1792816000397,
+      "tag": "0003_create_oasis_leaderboard",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1792816540159,
+      "tag": "0004_create_weekly_summaries",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1792820853404,
+      "tag": "0005_create_user_roles_admin",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1792821957917,
+      "tag": "0006_plant3d_scores_and_admin_moderation",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1792822139304,
+      "tag": "0007_restrict_report_photos_to_owner",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1792822524387,
+      "tag": "0008_user_feedback_and_admin_activity",
+      "breakpoints": true
+    }
+  ]
+}

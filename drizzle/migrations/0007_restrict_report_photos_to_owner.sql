@@ -1,0 +1,2 @@
+DROP POLICY "Anyone can read report photos" ON storage.objects;
+CREATE POLICY "Players read own report photos" ON storage.objects FOR SELECT TO authenticated USING (bucket_id = 'report-photos' AND (storage.foldername(name))[1] = (SELECT auth.uid())::text);
